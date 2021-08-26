@@ -1,14 +1,16 @@
 {
   "name": "poem-generator-angular",
   "version": "0.0.0",
+  "license": "MIT",
   "main": "main.js",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "electron": "ng build electron ."
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "electron": "ng build --base-href ./ && electron ."
   },
   "private": true,
   "dependencies": {
